@@ -32,24 +32,28 @@ def weatherClothes(temperature, description):
         elif temperature > 65:
             bottom = "Jeans/Long Pants"
             outerwear = "Jacket/Sweater"
+            message = "Hey, I know 65 seems hot, but trust me it's cold."
 
         elif temperature > 45:
             top = "Long Sleeves"
             bottom = "Jeans/Long Pants"
             outerwear = "Sweater"
+            message = "Yo it's kinda cold, but not that cold."
         
         elif temperature > 25:
             top = "Long Sleeves"
             bottom = "Warm Pants"
             outerwear = "Medium Coat"
-
+            message = "Dude layer up. It's pretty cold."
         else:
             top = "Multiple Layers"
             bottom = "Multiple Layers"
             outerwear = "Winter Jacket"
-            message ="It's too cold outside. Bundle up. Prepare for the apolcalypse."
+            message ="It's too cold outside. Bundle up and find a fire. Prepare for the apolcalypse."
         if "rain" in description:
             message = "Remember to bring an umbrella!"
+        elif "snow" in description:
+            message = "It's snowing outside. Be safe. :)"
         return top, bottom, outerwear, message
     else:
         top = ""
