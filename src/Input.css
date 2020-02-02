@@ -1,0 +1,48 @@
+.SubmitText{
+    text-align: center;
+    padding-top:20px;
+}
+
+#column1{
+    float:left;
+    padding: 5px 10px 5px 10px;
+    width:300px;
+    /* height: 400px; */
+    position: absolute;
+    margin-top: 50px;
+    left:39%;
+    padding:20px;
+    display:block;
+    border: 5px solid #B4D3B2;
+
+    /* width: 50%; */
+    background-color: #DEEFF5;
+    opacity: 0.0;
+    transition: opacity 350ms;
+    /* margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;  */
+}
+
+.textBox{
+    padding: 5px;
+    height:20px;
+    margin-right: 5px;
+}
+
+.buttonInfo{
+    height:35px;
+    padding: 5px;
+}
+
+.topTitle{
+    text-align: center;
+    font-size:2em;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.message{
+    font-size: 1.1em;
+    font-family: ;
+}

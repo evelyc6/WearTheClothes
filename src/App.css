@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.Top{
+  font-size: 5em;
+  text-align: center;
+  /* margin-top:30px; */
+  font: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top:20px;
+
+}
+
+.appDesc{
+  font-size:1.5em;
+  text-align:center; 
+  /* font-family: ; */
+  padding-bottom: 30px;
+}
+
+.background{
+  background-image: url("./images/background.jpg");
+  height: 100vh;
+  /* background: chartreuse; */
+}
+
+.topBanner{
+  background-color: #E6E6FA;
+}
+
+
+
+
+
+
+
