@@ -37,11 +37,22 @@ const Inputs=() =>{
     
     }
 
+    function keypressed(event){
+        // e.preventDefault();
+        // setCity(cityName);
+        if (event.key === "Enter")
+        {
+            handleSubmit();
+        }
+    
+    }
+
+
     return(
         <div>
             <div className="SubmitText">
-                <input className = "textBox" placeholder="Input a City" type="text" name="city" onChange={(e) => handleChange(e)}></input>
-                <button className = "buttonInfo" onClick={handleSubmit}>Submit</button>
+                <input className = "textBox" placeholder="Input a City" onKeyPress={keypressed} type="text" name="city" onChange={(e) => handleChange(e)}></input>
+                <button className = "buttonInfo"  onClick={handleSubmit}>Submit</button>
             </div>
             {true && <div id = "column1">
               
